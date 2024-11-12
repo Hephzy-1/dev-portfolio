@@ -16,7 +16,7 @@ export const info = {
     Looking for a challenge? Let's create something memorable together.`,
     education: [
       {
-        title: "Software Engineer",
+        title: "Software Engineering",
         date: "2024 - Present",
         location: "Miva Open University - Remote",
         degree: "BSc. Software Engineering",
@@ -24,29 +24,50 @@ export const info = {
     ],
     experience: [
       {
-        title: "Nithub Backend Developer Certification",
+        title: "Backend Developer Intern",
+        date: "October 2024 - Present",
+        location: "Syx Labs - Remote"
+      },
+      {
+        title: "HP Tech Ventures Externship",
+        date: "August 2024 - September 2024",
+        location: "Extern - Remote",
+        description: 
+          "I gained experience in performing market analysis and deal soucing, as well as crafting investment summaries, conducting deal evaluations and delivering pitch decks."
+      },
+    ],
+    certifications: [
+      {
+        title: "Nithub Backend Development Certification",
         date: "April 2023",
-        location: "Nithub - Hybrid",
+        location: "Nithub",
         description:
           "Learnt how to buid backend APIs using NodeJS and SQL. Also learnt about database design and database administration.",
       },
       {
         title: "Junior Cyber Security Analyst",
         date: "December 2023",
-        location: "Decent Tech Skills - Remote",
+        location: "Decent Tech Skills",
         description:
           "Learnt how to detect web exploits, learning things to look out for to prevent exloitation.",
       },
       {
+        title: "DevCareer Backend Development Certification",
+        date: "April 2024",
+        location: "DevCareer",
+        description:
+          "Learnt how to buid backend APIs using NodeJS and SQL. Also learnt about database design and database administration.",
+      },
+      {
         title: "Africa Agility Backend Certification",
         date: "July 2024",
-        location: "Africa Agility Foundation - Remote",
+        location: "Africa Agility Foundation",
         description: 
           "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging and working with frontend and other developers."
       }
     ],
 
-    skills: ["JavaScript", "SQL", "Node.js", "MongoDB", "HTML", "CSS", "Python"], // not used yet
+    skills: ["JavaScript", "SQL", "Node.js", "MongoDB", "HTML", "CSS", "Python", "TypeScript"], // not used yet
   },
 
   projects: [
@@ -83,7 +104,7 @@ export const info = {
   ],
 
   contact: {
-    email: "hephzydel@gmail.com",
+    email: "hephzylizzy@gmail.com",
     linkedin: "https://www.linkedin.com/in/hephzibah-owoeye",
     github: "https://www.github.com/Hephzy-1",
     twitter: "https://x.com/Hzdelight1",
