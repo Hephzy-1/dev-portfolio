@@ -1,12 +1,12 @@
 export const info = {
   name: "Hephzibah Owoeye",
   brief_description:
-    "I'm a backend developer who loves reading novels.",
+    "I'm a backend developer who loves hockey and reading novels.",
   role: "Backend Developer",
   picture: "/20240814_125955.jpg",
   picture_alt: "Hephzibah Owoeye",
   location: "Lagos, Nigeria",
-  cv: "/Hephzibah Owoeye Resume.pdf",
+  cv: "/HEPHZIBAH IFEOLUWA OWOEYE_BACKEND DEVELOPER.pdf",
 
   about: {
     description: `I'm a backend developer with a passion for causing a little chaos in web development.
@@ -18,7 +18,7 @@ export const info = {
       {
         title: "Software Engineering",
         date: "2024 - Present",
-        location: "Miva Open University - Remote",
+        location: "Miva Open University",
         degree: "BSc. Software Engineering",
       },
     ],
@@ -67,7 +67,7 @@ export const info = {
       }
     ],
 
-    skills: ["JavaScript", "SQL", "Node.js", "MongoDB", "HTML", "CSS", "Python", "TypeScript"], // not used yet
+    skills: ["JavaScript", "SQL", "NodeJs", "MongoDB", "HTML", "CSS", "TypeScript"], // not used yet
   },
 
   projects: [
@@ -76,7 +76,7 @@ export const info = {
       date: "2024",
       description:
         "An interactive portfolio website showcasing my mischievous coding projects.",
-      link: "https://github.com/Hephzy-1/prank-portfolio",
+      link: "https://github.com/Hephzy-1/Logistics",
       tech: ["React", "Node.js", "MongoDB"],
       img_alt: "Hephzibah's Portfolio",
       img_path: "/Screenshot_15-8-2024_95129_localhost.jpeg",
@@ -87,8 +87,8 @@ export const info = {
       description:
         "An API which performs simple banking operations.",
       link: "https://github.com/Hephzy-1/Bank",
-      tech: ["Node.js", "MySQL", "Express.js", "Bcrypt.js", "JOI"],
-      img_alt: "Skateboard Shop",
+      tech: ["NodeJs", "MySQL", "Express", "Bcrypt", "JOI"],
+      img_alt: "Bank API",
       img_path: "/domenico-loia-hGV2TfOh0ns-unsplash.jpg",
     },
     {
@@ -104,7 +104,7 @@ export const info = {
   ],
 
   contact: {
-    email: "hephzylizzy@gmail.com",
+    email: "hephzydel@gmail.com",
     linkedin: "https://www.linkedin.com/in/hephzibah-owoeye",
     github: "https://www.github.com/Hephzy-1",
     twitter: "https://x.com/Hzdelight1",
