@@ -6,11 +6,11 @@ export const info = {
   picture: "/20240814_125955.jpg",
   picture_alt: "Hephzibah Owoeye",
   location: "Lagos, Nigeria",
-  cv: "/HEPHZIBAH IFEOLUWA OWOEYE_BACKEND DEVELOPER.pdf",
+  cv: "../../public/HEPHZIBAH IFEOLUWA OWOEYE_SOFTWARE ENGINEERING.pdf",
 
   about: {
     description: `I'm a backend developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in software engineering, although I prefer reading novels over studying.
+    I have a solid foundation in backend development, although I aim to be a software engineer.
     I excel in building web applications using Node.js, MySQL and MongoDB.
     I'm known for my sharp wit and quick thinking, traits that serve me well in coding.
     Looking for a challenge? Let's create something memorable together.`,
@@ -25,15 +25,24 @@ export const info = {
     experience: [
       {
         title: "Backend Developer Intern",
-        date: "October 2024 - Present",
-        location: "Syx Labs - Remote"
+        date: "October 2024 - March 2025",
+        location: "Syx Labs - Remote",
+        description: 
+          "As a backend developer intern at Syx Labs, I built and maintained robust APIs using Node.js and MongoDB, ensuring high performance and scalability. I enhanced my skills in creating comprehensive and user-friendly API documentation, making it easier for developers to integrate and use the APIs effectively. I actively participated in code reviews, contributing constructive feedback to improve code quality, and collaborated with the team to discuss and implement best practices and emerging technologies."
+      },
+      {
+        title: "Energy Innovation Capital Externship",
+        date: "September 2024 - October 2024",
+        location: "Extern - Remote",
+        description: 
+          "Conducted detailed market analysis to identify and source innovative startups in the energy sector. Crafted tailored investment summaries, and delivering a compelling pitch deck that effectively highlighted the startup's value proposition and alignment with Energy Innovation."
       },
       {
         title: "HP Tech Ventures Externship",
         date: "August 2024 - September 2024",
         location: "Extern - Remote",
         description: 
-          "I gained experience in performing market analysis and deal soucing, as well as crafting investment summaries, conducting deal evaluations and delivering pitch decks."
+          "Performed in-depth market analysis to identify and source high-potential startups in the AI sector that aligned with HP's strategic investment goals. Conducted comprehensive evaluations of potential deals, prepared detailed investment summaries, and developed persuasive pitch decks that effectively communicated the value proposition of the emerging AI-focused startup."
       },
     ],
     certifications: [
@@ -42,60 +51,70 @@ export const info = {
         date: "April 2023",
         location: "Nithub",
         description:
-          "Learnt how to buid backend APIs using NodeJS and SQL. Also learnt about database design and database administration.",
+          "Gained hands-on experience in building backend APIs using Node.js and SQL. Developed a strong understanding of database design, administration, and best practices for creating scalable and efficient backend systems."
       },
       {
         title: "Junior Cyber Security Analyst",
         date: "December 2023",
         location: "Decent Tech Skills",
         description:
-          "Learnt how to detect web exploits, learning things to look out for to prevent exloitation.",
+          "Acquired foundational skills in detecting and mitigating web exploits. Learned to identify vulnerabilities and implement strategies to prevent exploitation, enhancing web application security."
       },
       {
         title: "DevCareer Backend Development Certification",
         date: "April 2024",
         location: "DevCareer",
         description:
-          "Learnt how to buid backend APIs using NodeJS and SQL. Also learnt about database design and database administration.",
+          "Advanced my backend development skills by building APIs with Node.js and SQL. Gained expertise in database design, administration, and creating secure, scalable backend solutions."
       },
       {
         title: "Africa Agility Backend Certification",
         date: "July 2024",
         location: "Africa Agility Foundation",
         description: 
-          "Masterminded backend solutions using Node.js and MongoDB. Surprisingly good at debugging and working with frontend and other developers."
+          "Specialized in crafting backend solutions using Node.js and MongoDB. Improved debugging skills and collaborated effectively with frontend and other developers to deliver seamless applications."
       }
     ],
 
-    skills: ["JavaScript", "SQL", "NodeJs", "MongoDB", "HTML", "CSS", "TypeScript"], // not used yet
+    skills: ["JavaScript", "SQL", "NodeJs", "MongoDB", "HTML", "CSS", "TypeScript"], 
   },
 
   projects: [
     {
-      title: "Hephzibah's Portfolio",
-      date: "2024",
+      title: "Food Ordering And Delivery API",
+      date: "2025",
       description:
-        "An interactive portfolio website showcasing my mischievous coding projects.",
+        "Built an API supporting Customers, Vendors, and Riders for food ordering, listing, and delivery, with PayPal-powered wallet payments.",
       link: "https://github.com/Hephzy-1/Logistics",
-      tech: ["React", "Node.js", "MongoDB"],
-      img_alt: "Hephzibah's Portfolio",
-      img_path: "/Screenshot_15-8-2024_95129_localhost.jpeg",
+      tech: ["TypeScript", "Node.js", "MongoDB", "PayPal", "Express"],
+      img_alt: "Food ordering and delivery API",
+      img_path: "/food-api.png",
     },
     {
       title: "Bank API",
       date: "2023",
       description:
-        "An API which performs simple banking operations.",
+        "Built an API for banking operations like account creation, deposits, withdrawals, and balance inquiries.",
       link: "https://github.com/Hephzy-1/Bank",
-      tech: ["NodeJs", "MySQL", "Express", "Bcrypt", "JOI"],
+      tech: ["NodeJs", "MySQL", "Express", "Bcrypt"],
       img_alt: "Bank API",
-      img_path: "/domenico-loia-hGV2TfOh0ns-unsplash.jpg",
+      img_path: "/bank-API.png",
+    },
+    {
+      title: "School API",
+      date: "2023",
+      description:
+        "Built an API for managing students, admins, and lecturers, with features like course enrollment and user management.",
+      link: "https://github.com/Hephzy-1/School",
+      tech: ["NodeJs", "MySQL", "Express", "Bcrypt", "JOI"],
+      img_alt: "School API",
+      img_path: "/school-API.png",
     },
     {
       title: "Elegante Couture Fashion House",
       date: "2024",
       description:
-        "An ecommerce website for a fashion house. Built as a group project",
+        "Developed an ecommerce site for a fashion house with a responsive interface, enabling users to browse and purchase products seamlessly.",
       link: "https://github.com/Hephzy-1/School",
       tech: ["HTML", "CSS", "JavaScript"],
       img_alt: "Elegante Couture",
