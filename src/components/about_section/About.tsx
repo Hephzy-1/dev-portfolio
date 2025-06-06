@@ -2,7 +2,8 @@ import React from "react";
 import { info } from "../../data/info";
 import Education from "./Education";
 import Experience from "./Experience";
-import Certification from "./Certifications"
+import Certification from "./Certifications";
+import Skill from "./Skill";
 
 interface AboutProps {
   about: (typeof info)["about"];
@@ -20,6 +21,7 @@ export default function About(props: AboutProps) {
       <Education education={about.education} />
       <Experience experience={about.experience} />
       <Certification certifications={about.certifications} />
+      <Skill skill={about.skills} />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export const info = {
   picture: "/20240814_125955.jpg",
   picture_alt: "Hephzibah Owoeye",
   location: "Lagos, Nigeria",
-  cv: "../../public/HEPHZIBAH IFEOLUWA OWOEYE_SOFTWARE ENGINEERING.pdf",
+  cv: "../../public/HEPHZIBAH IFEOLUWA OWOEYE_Backend Developer Intern.pdf",
 
   about: {
     description: `I'm a backend developer with a passion for causing a little chaos in web development.
