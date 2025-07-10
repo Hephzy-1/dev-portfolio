@@ -1,7 +1,7 @@
 export const info = {
   name: "Hephzibah Owoeye",
   brief_description:
-    "I'm a backend developer who loves hockey and reading novels.",
+    "I'm a backend developer with a knack for building secure, scalable APIs and an unexpected love for hockey and fiction novels.",
   role: "Backend Developer",
   picture: "/20240814_125955.jpg",
   picture_alt: "Hephzibah Owoeye",
@@ -9,11 +9,12 @@ export const info = {
   cv: "../../public/HEPHZIBAH IFEOLUWA OWOEYE_Backend Developer Intern.pdf",
 
   about: {
-    description: `I'm a backend developer with a passion for causing a little chaos in web development.
-    I have a solid foundation in backend development, although I aim to be a software engineer.
-    I excel in building web applications using Node.js, MySQL and MongoDB.
-    I'm known for my sharp wit and quick thinking, traits that serve me well in coding.
-    Looking for a challenge? Let's create something memorable together.`,
+    description: `I'm a backend developer who enjoys stirring up a bit of creative disruption in web development. 
+      With a strong foundation in backend technologies, I specialize in building reliable and scalable web applications using Node.js, MySQL and MongoDB. 
+      While backend is my playground, I am working toward becoming a well-rounded software engineer.
+      People know me for my sharp wit and quick thinking, qualities that make me fast on the keyboard and thoughtful in problem-solving. 
+      If you're up for a challenge, let's team up and build something unforgettable.`,
+    
     education: [
       {
         title: "Software Engineering",
